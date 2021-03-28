@@ -8,7 +8,6 @@ def eve_loss(message, output, batch_size):
 
     return loss
 
-
 def alice_bob_loss(message, output, eve_loss, batch_size, text_size):
 
     #We map -1 to 0 and +1 to 1 to calculate the loss
