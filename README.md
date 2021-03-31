@@ -9,21 +9,20 @@
 <img src="images/ABE_SymCryp.png">
 </p>
 <p align="center">
-Alice, Bob, and Eve, with a symmetric cryptosystem
-“P” stands for “plaintext”, “C” stands for
+Alice, Bob, and Eve, with a symmetric cryptosystem. Here, “P” stands for “plaintext”, “C” stands for
 “ciphertext” and "K" stands for Key
 </p>
 
 ## Objectives and Important Points
->1. Eve’s goal is simple: to reconstruct P accurately (in other words, to minimize the error between P and P Eve )
+>1. Eve’s goal is simple: to reconstruct P accurately, in other words, to minimize the error between P and P Eve.
 >2. Alice and Bob want to communicate clearly (to minimize the error between P and P Bob ), but also to hide their communication from Eve.
->3. A more realistic and useful goal for Alice and Bob is, generally, to minimize the mutual information between Eve’s guess and the real plaintext
+>3. A more realistic and useful goal for Alice and Bob is, generally, to minimize the mutual information between Eve’s guess and the real plaintext.
 >4. in the definitions of GANs, we would like Alice and Bob to defeat the best possible version of Eve, rather than a fixed Eve.
 >5. in the training of Alice and Bob, we do not attempt to maximize Eve’s reconstruction error. If we did, and made Eve completely wrong, then Eve could be completely right in the next iteration by simply flipping all output bits!
 
 ## Usage
 ```
-Run the Notebook on Jupyter or Google colab environment.
+- Run the Notebook on Jupyter or Google colab environment.
 ```
 ## References
 >1. Martín Abadi, David G. Andersen, ***Learning to Protect Communications with Adversarial Neural Cryptography***, 2016
