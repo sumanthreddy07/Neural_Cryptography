@@ -1,4 +1,4 @@
-# Neural Cryptograhpy
+# Neural Cryptography
 
 >Can neural networks can learn to use secret keys to protect information from other neural networks? Cryptography is broadly concerned with algorithms and protocols that ensure the secrecy and integrity of information. But, Neural networks are generally not meant to be great at cryptography. Famously, the simplest neural networks cannot even compute XOR, which is basic to many cryptographic algorithms. Nevertheless, neural networks can learn to protect the confidentiality of their data from other neural networks: they discover forms of encryption and decryption, without being taught specific algorithms for these purposes.
 
